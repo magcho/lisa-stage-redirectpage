@@ -48,16 +48,16 @@
   <script>
   +function(){
     $.ajax({
-      url: 'http://lisa-stage.azurewebsites.net',
+      url: 'https://lisa-stage.azurewebsites.net',
       type: 'get',
       data: false,
       dataType: 'html',
     })
     .done(function(data){
-      location.href = 'http://lisa-stage.azurewebsites.net';
+      location.href = 'https://lisa-stage.azurewebsites.net';
     })
     .fail(function(data){
-      location.href = 'http://lisa-stage.azurewebsites.net';
+      location.href = 'https://lisa-stage.azurewebsites.net';
     });
   }();
   </script>
